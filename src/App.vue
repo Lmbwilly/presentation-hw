@@ -1,32 +1,42 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+    <v-app-bar app color="grey lighten-3">
+      <div class="d-flex align-center">
+        <router-link to="/">
+          <v-img
+            alt="its Logo"
+            class="shrink mr-2"
+            contain
+            :src="require('@/assets/its_logo.png')"
+            transition="scale-transition"
+            min-width="120"
+            width="120"
+          />
+        </router-link>
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn to="sandbox" outlined color="orange">
+        <span class="mr-2">Sandbox</span>
+        <v-icon>mdi-code-braces</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+    <v-content>
+      <router-view />
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+export default {
+  name: "App",
 
-#nav {
-  padding: 30px;
-}
+  components: {},
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({
+    //
+  })
+};
+</script>
