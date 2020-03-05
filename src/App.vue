@@ -23,7 +23,7 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
+    <v-content class="orange lighten-5">
       <router-view />
     </v-content>
   </v-app>
