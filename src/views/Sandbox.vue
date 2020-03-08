@@ -32,7 +32,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+// `https://picsum.photos/id/1/400/200`
 
 export default {
   name: "Sandbox",
