@@ -18,10 +18,10 @@
               </v-tab>
             </v-tabs>
 
-            <v-tabs-items class="grey lighten-1" v-model="tab">
+            <v-tabs-items class="grey lighten-2" v-model="tab">
               <v-tab-item :key="items[0]">
-                <v-card color="grey" class="lighten-1" flat tile>
-                  <v-card-text class="font-weight-medium white--text">
+                <v-card color="grey" class="lighten-2" flat tile>
+                  <v-card-text class="font-weight-medium">
                     <v-row justify="space-around">
                       <v-col cols="2">
                         <v-img
