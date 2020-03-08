@@ -46,12 +46,12 @@
                         <br />
                         <ul>
                           <li>
-                            for the UI-components use Vuetify
+                            Use Vuetify for UI-components
                           </li>
                           <li>Great configurability</li>
                           <li>Big portfolio of components (82+)</li>
                           <li>Similar grid-system as Bootstrap</li>
-                          <li>No need of styling by yourself</li>
+                          <li>No need to do styling by yourself</li>
                         </ul>
                       </v-col>
                       <v-col cols="2">
